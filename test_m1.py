@@ -1,6 +1,5 @@
 import m1
 
-
 def test_ar():
     a = 10
     b = 5
@@ -17,7 +16,7 @@ def test_pr():
 
 def test_asq():
     b = 5
-    r = m1.asq( b)
+    r = m1.asq(b)
     assert b*b == r
 
 
