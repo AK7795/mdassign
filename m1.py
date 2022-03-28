@@ -24,10 +24,6 @@ if __name__ == "__main__":
         print("4. exit ")
         a = int(input("enter ur selection : "))
 
-
-
-
-
         if a == 1:
             le = float(input("enter length : "))
             b = float(input("enter breadth : "))
@@ -44,9 +40,3 @@ if __name__ == "__main__":
 
         if a == 4:
             f = 0
-
-
-
-
-
-
