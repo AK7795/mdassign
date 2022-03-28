@@ -3,6 +3,7 @@ f = 1
 le = float(input("enter length : "))
 b = float(input("enter breadth : "))
 h = float(input("enter length of one side of square : "))
+
 while f :
     print("menu :")
     print("1. area of rectangle  ")
@@ -35,9 +36,7 @@ while f :
     if a == 3:
         print(asq(h))
 
-else:
-        print("exit")
-        f = 0
+
 
 
 
