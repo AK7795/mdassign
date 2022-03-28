@@ -1,8 +1,7 @@
 f = 1
 
-le = float(input("enter length : "))
-b = float(input("enter breadth : "))
-h = float(input("enter length of one side of square : "))
+
+
 
 while f :
     print("menu :")
@@ -28,15 +27,21 @@ while f :
         return r3
 
     if a == 1:
+        le = float(input("enter length : "))
+        b = float(input("enter breadth : "))
         print(ar(le, b))
 
     if a == 2:
+        le = float(input("enter length : "))
+        b = float(input("enter breadth : "))
         print(pr(le, b))
 
     if a == 3:
+        h = float(input("enter length of one side of square : "))
         print(asq(h))
 
-
+    if a ==4:
+        f = 0
 
 
 
